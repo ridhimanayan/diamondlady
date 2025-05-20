@@ -494,4 +494,7 @@ nav {
    .email-box {
       max-width: 78%;
    }
+   .footer-end {
+      padding: 2.5vh 0;
+   }
 }
