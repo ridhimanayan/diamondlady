@@ -85,6 +85,7 @@ nav {
    font-weight: 500;
    margin-left: 0.4vw;
    margin-bottom: 4.5vh;
+   color: #353534;
 }
 .item {
    width: calc(33.33% - 10px);
@@ -282,3 +283,113 @@ nav {
    background-color: #484848;
    color: #f6f6f6;
 }
+
+.stories {
+   margin-top: 1.5vh;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: flex-start;
+}
+.stories div {
+   width: 8%;
+   cursor: pointer;
+}
+.stories div img {
+   width: 5.6rem;
+   height: 5.6rem;
+   object-fit: cover;
+   object-position: center;
+   border-radius: 50%;
+   margin-bottom: -2.5px;
+   border: 2px solid rgba(143, 57, 115, 1);
+   border-radius: 50%;
+   padding: 2.2px;
+}
+.stories div span {
+   font-size: 0.7rem;
+   line-height: 1.4;
+   display: inline-block;
+   margin-top: 5px;
+}
+.hero {
+   width: 99vw;
+   margin: 0 auto;
+   overflow: hidden;
+}
+.hero img {
+   width: 100%;
+   height: auto;
+}
+
+.product-display-home {
+   justify-content: center;
+   margin-top: 3.5vh;
+}
+.product-display-home .heading {
+   margin-left: 2vw;
+   font-size: 2.4rem;
+}
+.product-display-home .products .item {
+   width: calc(25% - 10px);
+}
+
+.more-products {
+   display: flex;
+   justify-content: center;
+   padding: 0 14vw;
+   gap: 1.5rem;
+   margin: 15vh 0;
+}
+.more-products img {
+   width: 18rem;
+   height: auto;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+.more-products img:hover {
+   transform: scale(1.04);
+}
+
+.subscribe {
+   text-align: center;
+}
+.subscribe h1 {
+   font-weight: 500;
+   font-size: 2.5rem;
+   color: #353534;
+   margin-bottom: 1rem;
+}
+.subscribe p {
+   font-size: 0.88rem;
+   color: #484848;
+   margin-bottom: 1rem;
+}
+
+.email-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #999999;
+  padding: 0.5rem 1.1rem;
+  width: 22rem;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 15vh;
+}
+
+.email-box input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 1rem;
+  font-family: Lato;
+  color: #999999;
+}
+
+.arrow {
+  font-size: 1.1rem;
+  color: #999999;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
